@@ -1,4 +1,4 @@
-package jar.toni.sample.restlet;
+package jar.toni.sample.restlet.rest.server;
 
 import org.restlet.Component;
 import org.restlet.data.MediaType;
