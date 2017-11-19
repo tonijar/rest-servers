@@ -1,0 +1,22 @@
+{
+  "name": "light4-rest-server",
+  "version": "0.0.1",
+  "groupId": "jar.toni.sample",
+  "artifactId": "light4-rest-server",
+  "rootPackage": "jar.toni.sample.light4.rest.server",
+  "handlerPackage":"jar.toni.sample.light4.rest.server.handler",
+  "modelPackage":"jar.toni.sample.light4.rest.server.model",
+  "overwriteHandler": true,
+  "overwriteHandlerTest": true,
+  "overwriteModel": true,
+  "httpPort": 8081,
+  "enableHttp": true,
+  "httpsPort": 8443,
+  "enableHttps": false,
+  "enableRegistry": false,
+  "supportOracle": false,
+  "supportMysql": false,
+  "supportPostgresql": false,
+  "supportH2ForTest": false,
+  "supportClient": false
+}

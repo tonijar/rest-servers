@@ -1,0 +1,66 @@
+{
+	"swagger": "2.0",
+	"info": {
+		"description": "This is a sample hello world server",
+		"version": "0.0.1",
+		"title": "Swagger Hello World"
+	},
+	"host": "localhost",
+	"basePath": "/",
+	"schemes": [
+		"http"
+	],
+	"security": [],
+	"securityDefinitions": {},
+	"paths": {
+		"/hello/{user}": {
+			"get": {
+				"tags": [
+					"hello"
+				],
+				"summary": "Add a new pet to the store",
+				"description": "",
+				"operationId": "addPet",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"in": "path",
+						"name": "user",
+						"type": "string",
+						"description": "The name of the user to greet",
+						"required": true
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "Returns the greeting",
+						"schema": {
+							"schema": {
+								"$ref": "#/definitions/Hello"
+							}
+						},
+						"400": {
+							"description": "Invalid characters in user were provided"
+						}
+					}
+				},
+				"security": []
+			},
+			"definitions": {
+				"Hello": {
+					"type": "object",
+					"properties": {
+						"content": {
+							"type": "string"
+						}
+					}
+				}
+			}
+		}
+	}
+}
