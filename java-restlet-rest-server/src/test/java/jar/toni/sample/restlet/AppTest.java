@@ -1,4 +1,4 @@
-package jar.toni.sample.restlet.rest.server;
+package jar.toni.sample.restlet;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
