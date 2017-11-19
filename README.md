@@ -1,6 +1,7 @@
 # rest-servers
 Sample minimum REST Server for testing purposes, including the following frameworks:
 - Java Restlet
+- Java SE
 - Java Spark
 - Java Spring Boot
 
