@@ -1,12 +1,22 @@
 # rest-servers
 Sample minimum REST Server for testing purposes, including the following frameworks:
-| Framework             | Language      | RAM usage at startup | RAM usage after 1st request |
-| --------------------- | ------------- | -------------------- | --------------------------- |
-| Dropwizard            | Java 8 64bits | 148 MB               | 152 MB                      |
-| Light4j (non-working) | Java 8 64bits | N/A                  | N/A                         |
-| Restlet               | Java 8 64bits | 23 MB                | 46 MB                       |
-| Java SE               | Java 8 64bits | 15 MB                | 21 MB                       |
-| Spark                 | Java 8 64bits | 28 MB                | 39 MB                       |
-| Spring Boot           | Java 8 64bits | 170 MB               | 172 MB                      |
+1. Dropwizard:
+    - Language: Java 8 (64 bits)
+    - RAM usage: 148 MB at startup, 152 MB after 1st request
+2. Light4j (not working):
+     - Language: Java 8 (64 bits)
+     - RAM usage: N/A
+3. Restlet:
+     - Language: Java 8 (64 bits)
+     - RAM usage: 23 MB at startup, 46 MB after 1st request
+4. Java SE:
+     - Language: Java 8 (64 bits)
+     - RAM usage: 15 MB at startup, 21 MB after 1st request
+5. Spark:
+     - Language: Java 8 (64 bits)
+     - RAM usage: 28 MB at startup, 39 MB after 1st request
+6. Spring Boot:
+     - Language: Java 8 (64 bits)
+     - RAM usage: 170 MB at startup, 172 MB after 1st request
 
 Please review usage documentation inside each project.
