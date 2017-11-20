@@ -15,10 +15,13 @@ Sample minimum REST Server for testing purposes, including the following framewo
 5. Javalin:
      - Language: Java 8 (64 bits)
      - RAM usage: 38 MB at startup, 64 MB after 1st request
-6. Spark:
+6. RestExpress:
+     - Language: Java 8 (64 bits)
+     - RAM usage: 61 MB at startup, 88 MB after 1st request
+7. Spark:
      - Language: Java 8 (64 bits)
      - RAM usage: 28 MB at startup, 39 MB after 1st request
-7. Spring Boot:
+8. Spring Boot:
      - Language: Java 8 (64 bits)
      - RAM usage: 170 MB at startup, 172 MB after 1st request
 
