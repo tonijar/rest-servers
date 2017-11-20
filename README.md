@@ -12,10 +12,13 @@ Sample minimum REST Server for testing purposes, including the following framewo
 4. Java SE:
      - Language: Java 8 (64 bits)
      - RAM usage: 15 MB at startup, 21 MB after 1st request
-5. Spark:
+5. Javalin:
+     - Language: Java 8 (64 bits)
+     - RAM usage: 38 MB at startup, 64 MB after 1st request
+6. Spark:
      - Language: Java 8 (64 bits)
      - RAM usage: 28 MB at startup, 39 MB after 1st request
-6. Spring Boot:
+7. Spring Boot:
      - Language: Java 8 (64 bits)
      - RAM usage: 170 MB at startup, 172 MB after 1st request
 
